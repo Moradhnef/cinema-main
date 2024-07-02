@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iSratim</title>
+    <link rel="stylesheet" href="../cinema-main/homestyleindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../cinema-main/home.js" text="text/javascript"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav style="position: fixed; top: 0; z-index: 9999;">
+            <li class="logo">
+                <a href="#homelink" class="fas fa-film"></a>iSratim
+            </li>
+
+            <input type="checkbox" id="box-1">
+            <label id="toggler" for="box-1">
+            <span>תפריט<i class="fas fa-bars"></i></span>
+          </label>
+
+            <ul>
+                <li><a href="../cinema-main/index.html">דף בית</a></li>
+                <li><a href="#newsleter">ניוזלטר</a></li>
+                <li><a href="../cinema-main/register.html">רישום למנוי</a></li>
+                <li><a href="#footer">אודות</a></li>
+            </ul>
+
+            <div id="navbar-form">
+                <input type="checkbox" id="box-2">
+                <form action="" id="search-form">
+                    <input type="search" placeholder="חיפוש סרטים" id="search-bar">
+                    <button id="search-btn" type="submit">
+                <span><i class="fas fa-search"></i></span>
+              </button>
+                </form>
+
+                <label for="box-2" id="search-form-opener">
+              <span><i class="fas fa-search"></i></span>
+            </label>
+
+                <label for="box-2" id="search-form-closer">
+              <span><i class="fas fa-times"></i></span>
+            </label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <br>
+        <br>
+
+        <section class="one" id="one">
+            <h2 class="title1" id="homelink">!חדש בקולנוע</h2>
+            <div class="container1">
+                <p style="text-align:center;"><img src="../cinema-main/images/homepage/pussinboots.gif" alt="סרט"></p>
+                <br>
+                <br>
+                <br>
+                <div style="right:100; text-align: center;" class="text-block">
+                    <h4 class="para1">החתול של שרק 2</h4>
+                    <p class="para2">ילדים,רפתקאות|2023 | ישראל |100 דקות</p>
+                    <a href="../cinema-main/cardticket.html" class="purchase"><i class="fas fa-ticket-alt"></i>לרכישת כרטיס</a>
+                    <br>
+                    <button class="clicktrailer" id="btn89"><i class="fas fa-play"></i>: צפייה בטריילר</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <br>
+    <br>
+    <section id="trailer" style="display: none;">
+        <h2 class="title1">: טריילר</h2>
+        <br>
+        <video controls class="video1">
+                <source src="../cinema-main/Puss In Boots_ The Last Wish - Official Trailer 2.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+
+
+            </video>
+        <br>
+        <br>
+
+        <button type="button" id="buttonCin" class="back">חזרה לפרטי הסרט : <i class="fa-solid fa-arrow-right"></i></button>
+
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="two">
+
+        <h3 style="text-align: right;" class="title2">!עכשיו בקולנוע</h3>
+        <div class="container234">
+            <div class="card">
+                <div class="card-image card1"></div>
+                <h2>Puss in Boots 2</h2>
+                <p><b>סיווג</b>: ילדים</p>
+                <p><b>אורך בדקות</b>: 100</p>
+                <p><b>תאריך בכורה</b>: 28/01/2023</p>
+                <p><b>הגבלת צפיה</b>: מותר לכל</p>
+                <a href="../cinema-main/cardticket.html">לרכישת כרטיס</a>
+
+
+            </div>
+            <div class="card">
+                <div class="card-image card2"></div>
+                <h3>אווטאר: דרכם של המים - דו מימד</h3>
+                <p><b>סיווג</b>: פנטזיה</p>
+                <p><b>אורך בדקות</b>: 192</p>
+                <p><b>תאריך בכורה</b>: 15/12/2022</p>
+                <p><b>הגבלת צפיה</b>: עד גיל 8 בליווי מבוגר</p>
+                <br>
+                <a href="../cinema-main/cardticket.html">לרכישת כרטיס</a>
+
+
+
+
+
+
+            </div>
+            <div class="card">
+                <div class="card-image card3"></div>
+                <h2>בלש ניו יורקי: התיקון</h2>
+                <p><b>סיווג</b>: אקשן</p>
+                <p><b>אורך בדקות</b>: 97</p>
+                <p><b>תאריך בכורה</b>: 29/02/2023</p>
+                <p><b>הגבלת צפיה</b>: מוגבל מגיל 16</p>
+
+                <a href="../cinema-main/cardticket.html">לרכישת כרטיס</a>
+
+            </div>
+            <div class="card">
+                <div class="card-image card4"></div>
+                <h2>The Lost King</h2>
+                <p><b>סיווג</b>: דרמה</p>
+                <p><b>אורך בדקות</b>: 108</p>
+                <p><b>תאריך בכורה</b>: 10/03/2023</p>
+                <p><b>הגבלת צפיה</b>: מותר לכל</p>
+
+
+                <a id="btnstat1">לרכישת כרטיס</a>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    </main>
+    <br>
+    <br>
+    <footer id="footer">
+        <div class="container567">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>אודות</h4>
+                    <ul>
+                        <li><a href="">בדיקה/ביטול הזמנה</a></li>
+                        <li><a href="">צור קשר</a></li>
+                        <li><a href="">iSratim אודות</a></li>
+                        <li><a href="">מידע כללי</a></li>
+                        <li><a href="">המתחמים שלנו</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <h4>קישורים</h4>
+                    <ul>
+                        <li><a href="">כנסים ואירועים</a></li>
+                        <li><a href="">דרושים</a></li>
+                        <li><a href="">יום הולדת מהסרטים</a></li>
+                        <li><a href="">פרסום וקד"מ</a></li>
+
+                        <li>
+                            <a href=""></a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <h4>תנאי שימוש</h4>
+                    <ul>
+                        <li><a href="">תקנון</a></li>
+                        <li><a href="">זכויות</a></li>
+                        <li><a href="">נגישות</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <h4>הרשם לניוזלטר</h4>
+                    <form method="post" action="subscribe.php" id="newsleter">
+                        <input type="text" placeholder="שם מלא" name="username" class="inputName" required>
+                        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="דואר אלקטרוני" class="InputMail" required>
+                        <input type="submit" name="submit2" value="שלח" class="InputSubmit">
+
+                    </form>
+
+                </div>
+
+
+
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <p>&#169;All Rights Reserved ® 2023 Developed by Kareem & Morad</p>
+
+                </div>
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
